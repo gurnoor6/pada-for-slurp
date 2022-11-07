@@ -1,0 +1,42 @@
+adam_epsilon: 1.0e-08
+beam_size: 10
+clean_up_tokenization_spaces: true
+data_dir: /home/gurnoor/PADA/data
+data_procesor_obj: !!python/name:src.data_processing.rumor.pada.RumorPadaDataProcessor ''
+dataset_obj: !!python/name:src.data_processing.rumor.pada.RumorPadaDataset ''
+dataset_specific_kwargs: !!python/object:argparse.Namespace
+  max_drf_seq_len: 20
+  mixture_alpha: 0.2
+diversity_penalty: 0.2
+eval_batch_size: 32
+eval_metrics:
+- binary_f1
+- micro_f1
+- macro_f1
+- weighted_f1
+experiment_dir: /home/gurnoor/PADA/runs
+gen_constant: 1.0
+gradient_accumulation_steps: 1
+learning_rate: 5.0e-05
+length_penalty: 1.0
+max_drf_seq_len: 20
+max_seq_len: 128
+mixture_alpha: 0.2
+n_gpu: 1
+num_beam_groups: 5
+num_labels: 2
+num_return_sequences: 4
+num_train_epochs: 5
+output_dir: /home/gurnoor/PADA/runs/rumor/sydneysiege/PADA/e5/b32/a0.2
+repetition_penalty: 2.0
+skip_special_tokens: true
+src_domains:
+- charliehebdo
+- ferguson
+- germanwings-crash
+- ottawashooting
+t5_model_name: t5-base
+train_batch_size: 32
+trg_domain: sydneysiege
+warmup_steps: 0
+weight_decay: 1.0e-05
