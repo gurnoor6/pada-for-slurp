@@ -21,7 +21,9 @@ class AbsaSeq2SeqDataProcessor:
         self.reduce_label_dict = {
             'O': 'O',
             'B-AS': 'B',
-            'I-AS': 'I'
+            'I-AS': 'I',
+            'B': 'B',
+            'I': 'I'
         }
         self.labels_dict = {
             'binary': {'O': 0, 'B': 1, 'I': 1},
