@@ -14,7 +14,7 @@ SEED=212
 
 # this is all domains, remove according to wish
 # DOMAINS=recommendation,iot,cooking,datetime,transport,lists,takeaway,play,calendar,weather,general,qa,alarm,audio,social,email,music,news
-SRC_DOMAINS=iot,cooking,datetime,transport,lists,takeaway,play,calendar,weather,general,qa,alarm,audio,social,email,music,news
+SRC_DOMAINS=iot,cooking
 TRG_DOMAIN=recommendation
 
 # echo "Extracting DRFs for the current experiment."
