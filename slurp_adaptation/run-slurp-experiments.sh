@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ### Environment Variables
-GPU_ID=1
+GPU_ID=0
 export TOKENIZERS_PARALLELISM=false
 export PYTHONPATH=`pwd`
 
