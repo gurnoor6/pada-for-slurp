@@ -24,8 +24,8 @@ class AbsaSeq2SeqPadaDataProcessor(AbsaSeq2SeqDataProcessor):
             return ['' for _ in range(len(self.data[mode]["input_str"]))]
         all_drfs = list()
         for domain in domains:
-            prompts_path = "/home/gurnoor/PADA/slurp_adaptation/prompt_annotations" / domain
-            with open(prompts_path / f"annotated_prompts_train.pt", "rb") as f:
+            prompts_path = "/home/gurnoor/PADA/slurp_adaptation/prompt_annotations/" + domain
+            with open(prompts_path + f"/annotated_prompts_train.pt", "rb") as f:
                 drfs = torch.load(f)
             all_drfs.extend(drfs)
         return all_drfs
