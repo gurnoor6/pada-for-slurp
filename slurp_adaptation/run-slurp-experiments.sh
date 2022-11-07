@@ -9,7 +9,7 @@ export PYTHONPATH=`pwd`
 TASK=absa
 TRAIN_BATCH_SIZE=24
 EVAL_BATCH_SIZE=24
-EPOCHS=60
+EPOCHS=10
 SEED=212
 
 # this is all domains, remove according to wish
