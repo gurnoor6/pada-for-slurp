@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ### Environment Variables
-GPU_ID=0,1
+GPU_ID=1
 export TOKENIZERS_PARALLELISM=false
 export PYTHONPATH=`pwd`
 
@@ -9,7 +9,7 @@ export PYTHONPATH=`pwd`
 TASK=absa
 TRAIN_BATCH_SIZE=24
 EVAL_BATCH_SIZE=24
-EPOCHS=10
+EPOCHS=20
 SEED=212
 
 # this is all domains, remove according to wish

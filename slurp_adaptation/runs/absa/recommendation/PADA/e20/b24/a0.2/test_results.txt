@@ -1,0 +1,13 @@
+avg_dev_loss = 0.273
+avg_test_loss = 0.702
+avg_train_loss = 0.218
+dev_binary_f1 = 0.676
+dev_invalid_preds = 0.017
+dev_macro_f1 = 0.701
+dev_micro_f1 = 0.868
+dev_weighted_f1 = 0.866
+test_binary_f1 = 0.384
+test_invalid_preds = 0.115
+test_macro_f1 = 0.386
+test_micro_f1 = 0.667
+test_weighted_f1 = 0.682

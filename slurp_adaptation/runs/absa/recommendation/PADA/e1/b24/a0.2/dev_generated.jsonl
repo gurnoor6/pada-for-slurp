@@ -1,0 +1,153 @@
+{"example_id":"iot_1","input_text":"turn the lights off please","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O O O","correct_preds":"1 1 1 1 0"}
+{"example_id":"iot_2","input_text":"dim the lights in the hall","generated_prompt":"Dim the lights in the hall.","generated_text":"Dim the lights in the hall.: dim the lights in the hall.","labels_text":"O O O O O B","correct_preds":"0 0 0 0 0 0"}
+{"example_id":"iot_3","input_text":"make a room darker","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O B O","correct_preds":"1 1 0 0"}
+{"example_id":"iot_4","input_text":"clean the flat","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O B","correct_preds":"1 1 0"}
+{"example_id":"iot_5","input_text":"cleaning is good dust is so bad do now your magic clean my carpet","generated_prompt":"O O O O","generated_text":"O O O O","labels_text":"O O O O O O O O O O O O O B","correct_preds":"1 1 1 1 0 0 0 0 0 0 0 0 0 0"}
+{"example_id":"iot_6","input_text":"it's too dark here","generated_prompt":"O O O O O","generated_text":"O O O","labels_text":"O O O O","correct_preds":"1 1 1 0"}
+{"example_id":"iot_7","input_text":"turn off the smart plug","generated_prompt":"'smart plug'","generated_text":"Smart plug': turn off the smart plug.","labels_text":"O O O B I","correct_preds":"0 0 0 0 0"}
+{"example_id":"iot_8","input_text":"change my room lights so that i can get a good sleep","generated_prompt":"iot ['lights' 'change' 'change']","generated_text":"O O O O","labels_text":"O O O O O O O O O O B I","correct_preds":"1 1 1 1 0 0 0 0 0 0 0 0"}
+{"example_id":"iot_9","input_text":"turn on the t. v. socket when i arrive home","generated_prompt":"iot ['turn' 'turn' 'turn' 'turn']","generated_text":"O O O B","labels_text":"O O O B I O O O O O","correct_preds":"1 1 1 1 0 0 0 0 0 0"}
+{"example_id":"iot_10","input_text":"can you bright the lights please","generated_prompt":"O O O O O O","generated_text":"O O O O O","labels_text":"O O O O O O","correct_preds":"1 1 1 1 1 0"}
+{"example_id":"iot_11","input_text":"prepare coffee","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O","correct_preds":"1 1"}
+{"example_id":"iot_12","input_text":"can you turn off wemo plug socket","generated_prompt":"O O O O","generated_text":"O O O O","labels_text":"O O O O B I I","correct_preds":"1 1 1 1 0 0 0"}
+{"example_id":"iot_13","input_text":"make coffee now","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O","correct_preds":"1 1 1"}
+{"example_id":"iot_14","input_text":"brighten lights","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O","correct_preds":"1 1"}
+{"example_id":"iot_15","input_text":"please lower the lights a little bit","generated_prompt":"iot ['lights' 'lower' 'light']","generated_text":"O O O O","labels_text":"O O O O B I I","correct_preds":"1 1 1 1 0 0 0"}
+{"example_id":"iot_16","input_text":"at one p. m. today start the robot vacuum cleaner","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O B I I B O O B I I","correct_preds":"1 0 0 0 0 0 0 0 0 0"}
+{"example_id":"iot_17","input_text":"olly make the living room blue","generated_prompt":"O O O","generated_text":"O O O","labels_text":"O O O B I B","correct_preds":"1 1 1 0 0 0"}
+{"example_id":"iot_18","input_text":"make the living room blue","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O B I B","correct_preds":"1 1 0 0 0"}
+{"example_id":"iot_19","input_text":"switch to night light setting","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O O","correct_preds":"1 1 1 0 0"}
+{"example_id":"iot_20","input_text":"can i have an espresso please","generated_prompt":"iot ['coffee''smooth''smooth']","generated_text":"O O O O","labels_text":"O O O O B O","correct_preds":"1 1 1 1 0 0"}
+{"example_id":"iot_21","input_text":"olly start the vacuum cleaner","generated_prompt":"O O O","generated_text":"O O O","labels_text":"O O O B I","correct_preds":"1 1 1 0 0"}
+{"example_id":"iot_22","input_text":"can you start the roomba","generated_prompt":"O O O O O O","generated_text":"O O O O O","labels_text":"O O O O B","correct_preds":"1 1 1 1 0"}
+{"example_id":"iot_23","input_text":"by ten to eleven am daily start my vacuum cleaner","generated_prompt":"ten to eleven am daily start my vacuum cleaner","generated_text":"O O O O O","labels_text":"O B O B I B O O B I","correct_preds":"1 0 1 0 0 0 0 0 0 0"}
+{"example_id":"iot_24","input_text":"i need some more lights","generated_prompt":"iot ['lights' 'light' 'light']","generated_text":"O O O B","labels_text":"O O O O O","correct_preds":"1 1 1 0 0"}
+{"example_id":"iot_25","input_text":"give me low lighting in the kitchen","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O O O O B","correct_preds":"1 1 1 1 0 0 0"}
+{"example_id":"iot_26","input_text":"start my robot vacuum cleaner","generated_prompt":"domain:'start my robot vacuum cleaner'","generated_text":"O O O O O","labels_text":"O O B I I","correct_preds":"1 1 0 0 0"}
+{"example_id":"iot_27","input_text":"start house cleanup","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O B O","correct_preds":"1 0 1"}
+{"example_id":"iot_28","input_text":"switch off the light","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O","correct_preds":"1 1 1 0"}
+{"example_id":"iot_29","input_text":"hey alexa turn on disco lights in my apartment and let the party begin","generated_prompt":"iot ['disco' 'turn' 'go']","generated_text":"O O O B","labels_text":"O O O O B I O O B O O O O O","correct_preds":"1 1 1 0 0 0 0 0 0 0 0 0 0 0"}
+{"example_id":"iot_30","input_text":"set the mood please","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O","correct_preds":"1 1 1 0"}
+{"example_id":"iot_31","input_text":"turn lights blue","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O B","correct_preds":"1 1 0"}
+{"example_id":"iot_32","input_text":"turn living room lights red","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O B I O B","correct_preds":"1 0 0 0 0"}
+{"example_id":"iot_33","input_text":"can you please turn off the light of my bed room","generated_prompt":"iot ['light' 'turn' 'bedroom']","generated_text":"O O O B I","labels_text":"O O O O O O O O O B I","correct_preds":"1 1 1 0 0 0 0 0 0 0 0"}
+{"example_id":"iot_34","input_text":"turn off the closet light","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O O","correct_preds":"1 1 1 0 0"}
+{"example_id":"iot_35","input_text":"set color blue for all lights of my house","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O B O O O O O O","correct_preds":"1 1 0 1 0 0 0 0 0"}
+{"example_id":"iot_36","input_text":"olly turn the lights down to seven","generated_prompt":"O O O","generated_text":"O O O","labels_text":"O O O O O B I","correct_preds":"1 1 1 0 0 0 0"}
+{"example_id":"iot_37","input_text":"lights down to seven","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O B I","correct_preds":"1 1 0 0"}
+{"example_id":"iot_38","input_text":"minimize the light power","generated_prompt":"O O O O O","generated_text":"O O O","labels_text":"O O O O","correct_preds":"1 1 1 0"}
+{"example_id":"iot_39","input_text":"olly turn off the lights","generated_prompt":"O O O","generated_text":"O O O","labels_text":"O O O O O","correct_preds":"1 1 1 0 0"}
+{"example_id":"iot_40","input_text":"switch on the lights","generated_prompt":"'lights'","generated_text":"O O O O","labels_text":"O O O O","correct_preds":"1 1 1 1"}
+{"example_id":"iot_41","input_text":"will you dim all the lights","generated_prompt":"O O O O O","generated_text":"O O O O O","labels_text":"O O O O O O","correct_preds":"1 1 1 1 1 0"}
+{"example_id":"iot_42","input_text":"lights down","generated_prompt":"'lights down'","generated_text":"'lights down': lights down.","labels_text":"O O","correct_preds":"0 0"}
+{"example_id":"iot_43","input_text":"hey olly how do i start the robot vacuum cleaner","generated_prompt":"O O O O","generated_text":"O O O O","labels_text":"O O O O O O O B I I","correct_preds":"1 1 1 1 0 0 0 0 0 0"}
+{"example_id":"iot_44","input_text":"please help me turn on the robot vacuum cleaner","generated_prompt":"O O O O O","generated_text":"O O O O O","labels_text":"O O O O O O B I I","correct_preds":"1 1 1 1 1 0 0 0 0"}
+{"example_id":"iot_45","input_text":"please dim the lights in the bedroom","generated_prompt":"O O O O","generated_text":"O O O O","labels_text":"O O O O O O B","correct_preds":"1 1 1 1 0 0 0"}
+{"example_id":"iot_46","input_text":"i would like coffee now","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O O O","correct_preds":"1 1 1 1 0"}
+{"example_id":"iot_47","input_text":"turn off my bedside lamp please","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O B I O","correct_preds":"1 1 1 0 0 0"}
+{"example_id":"iot_48","input_text":"please start vacuum","generated_prompt":"iot ['vacuum''speaker''speaker']","generated_text":"O O O O","labels_text":"O O B","correct_preds":"1 1 0"}
+{"example_id":"iot_49","input_text":"start vacuum cleaner now","generated_prompt":"iot ['vom''steam''steam']","generated_text":"O O O B","labels_text":"O B I O","correct_preds":"1 0 0 0"}
+{"example_id":"iot_50","input_text":"make a cup of coffee for me","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O O O O O","correct_preds":"1 1 1 1 0 0 0"}
+{"example_id":"iot_51","input_text":"power off the current","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O","correct_preds":"1 1 1 0"}
+{"example_id":"iot_52","input_text":"start up the coffee machine","generated_prompt":"iot ['start' 'coffee''start']","generated_text":"O O O B","labels_text":"O O O B I","correct_preds":"1 1 1 1 0"}
+{"example_id":"iot_53","input_text":"brighten lights in living room","generated_prompt":"O O O","generated_text":"O O O","labels_text":"O O O B I","correct_preds":"1 1 1 0 0"}
+{"example_id":"iot_54","input_text":"brew some coffee","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O","correct_preds":"1 1 1"}
+{"example_id":"iot_55","input_text":"change light colors from blue to white","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O B O B","correct_preds":"1 1 1 0 0 0 0"}
+{"example_id":"iot_56","input_text":"make the lights in the house red","generated_prompt":"O O O O","generated_text":"O O O O","labels_text":"O O O O O B B","correct_preds":"1 1 1 1 0 0 0"}
+{"example_id":"iot_57","input_text":"please have vacuum go for one hour","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O B O O B I","correct_preds":"1 1 0 1 0 0 0"}
+{"example_id":"iot_58","input_text":"set the living room lights to red","generated_prompt":"iot ['set the living room' 'lights']","generated_text":"O O O B","labels_text":"O O B I O O B","correct_preds":"1 1 0 0 0 0 0"}
+{"example_id":"iot_59","input_text":"change light color to blue","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O B","correct_preds":"1 1 1 0 0"}
+{"example_id":"iot_60","input_text":"alexa turn off the fan in the master bedroom","generated_prompt":"alexa turn off the fan in the master bedroom","generated_text":"iot ['turn' 'turn' 'turn' 'turn' 'turn' 'turn' 'turn' 'turn' 'turn' 'turn' 'turn' 'turn' 'turn' 'turn' 'turn' 'turn']","labels_text":"O O O O B O O B I","correct_preds":"0 0 0 0 0 0 0 0 0"}
+{"example_id":"iot_61","input_text":"please start the coffee","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O O","correct_preds":"1 1 1 1"}
+{"example_id":"iot_62","input_text":"lower lights","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O","correct_preds":"1 1"}
+{"example_id":"iot_63","input_text":"nighttime mode","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O","correct_preds":"1 1"}
+{"example_id":"iot_64","input_text":"turn off lighting","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O","correct_preds":"1 1 1"}
+{"example_id":"iot_65","input_text":"power off on","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O","correct_preds":"1 1 1"}
+{"example_id":"iot_66","input_text":"olly lower the lights please","generated_prompt":"O O O","generated_text":"O O O","labels_text":"O O O O O","correct_preds":"1 1 1 0 0"}
+{"example_id":"iot_67","input_text":"decrease lighting","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O","correct_preds":"1 1"}
+{"example_id":"iot_68","input_text":"please turn on my wemo plug socket","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O O B I I","correct_preds":"1 1 1 1 0 0 0"}
+{"example_id":"iot_69","input_text":"increase lights please","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O","correct_preds":"1 1 1"}
+{"example_id":"iot_70","input_text":"please turn on all the outdoor lights","generated_prompt":"O O O O O O","generated_text":"O O O O O","labels_text":"O O O O O O O","correct_preds":"1 1 1 1 1 0 0"}
+{"example_id":"iot_71","input_text":"please make me a coffee","generated_prompt":"O O O O O O","generated_text":"O O O O O","labels_text":"O O O O O","correct_preds":"1 1 1 1 1"}
+{"example_id":"iot_72","input_text":"please make a coffee for me","generated_prompt":"O O O O O","generated_text":"O O O O O","labels_text":"O O O O O O","correct_preds":"1 1 1 1 1 0"}
+{"example_id":"iot_73","input_text":"this is too bright","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O","correct_preds":"1 1 1 0"}
+{"example_id":"iot_74","input_text":"please turn off the smart plug socket","generated_prompt":"O O O O O O O","generated_text":"O O O O O","labels_text":"O O O O B I I","correct_preds":"1 1 1 1 0 0 0"}
+{"example_id":"iot_75","input_text":"turn on the wemo plug socket","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O B I I","correct_preds":"1 1 1 0 0 0"}
+{"example_id":"iot_76","input_text":"turn on the roomba","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O B","correct_preds":"1 1 1 0"}
+{"example_id":"iot_77","input_text":"please increase the light","generated_prompt":"O O O O O O","generated_text":"O O O O O","labels_text":"O O O O","correct_preds":"1 1 1 1"}
+{"example_id":"iot_78","input_text":"get the cleaning on","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O O","correct_preds":"1 1 1 1"}
+{"example_id":"iot_79","input_text":"hey siri chance the current light settings","generated_prompt":"siri chance the current light settings:","generated_text":"siri chance the current light settings:: hey siri chance the current light settings:: hey siri chance the current light settings::","labels_text":"O O O O O O O","correct_preds":"0 0 0 0 0 0 0"}
+{"example_id":"iot_80","input_text":"can you turn off my desk lamp","generated_prompt":"iot ['turn' 'light''speaker']","generated_text":"O O O B","labels_text":"O O O O O B I","correct_preds":"1 1 1 0 0 0 0"}
+{"example_id":"iot_81","input_text":"desk lamp one off","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"B I I O","correct_preds":"0 0 0 0"}
+{"example_id":"iot_82","input_text":"light up","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O","correct_preds":"1 1"}
+{"example_id":"iot_83","input_text":"raise the lamp's light","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O B I","correct_preds":"1 1 0 0"}
+{"example_id":"iot_84","input_text":"dim all interior lights","generated_prompt":"Dim all interior lights.","generated_text":"Dim all interior lights.: dim all interior lights.","labels_text":"O O B O","correct_preds":"0 0 0 0"}
+{"example_id":"iot_85","input_text":"turn my lights to some random color","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O O O B O","correct_preds":"1 1 1 1 0 0 0"}
+{"example_id":"iot_86","input_text":"change the color of the lights","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O O O","correct_preds":"1 1 1 0 0 0"}
+{"example_id":"iot_87","input_text":"turn up the lights in here please","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O O O O O","correct_preds":"1 1 1 1 0 0 0"}
+{"example_id":"iot_88","input_text":"start new smart socket","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O B I","correct_preds":"1 1 0 0"}
+{"example_id":"iot_89","input_text":"dim the lights to level two","generated_prompt":"iot ['lights' 'dark' 'room']","generated_text":"O O O B","labels_text":"O O O O O O","correct_preds":"1 1 1 0 0 0"}
+{"example_id":"iot_90","input_text":"please turn bedroom lights off","generated_prompt":"O O O O O O","generated_text":"O O O O O","labels_text":"O O B O O","correct_preds":"1 1 0 1 1"}
+{"example_id":"iot_91","input_text":"shut off the lights in the bedroom","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O O O B","correct_preds":"1 1 1 0 0 0 0"}
+{"example_id":"iot_92","input_text":"can the lights be changed to green","generated_prompt":"iot ['lights' 'change' 'green']","generated_text":"O O O B","labels_text":"O O O O O O B","correct_preds":"1 1 1 0 0 0 0"}
+{"example_id":"iot_93","input_text":"switch the lights to off","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O O","correct_preds":"1 1 1 0 0"}
+{"example_id":"iot_94","input_text":"show us red","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O B","correct_preds":"1 1 0"}
+{"example_id":"iot_95","input_text":"change the opacity of the color","generated_prompt":"O O O","generated_text":"O O O","labels_text":"O O O O O O","correct_preds":"1 1 1 0 0 0"}
+{"example_id":"iot_96","input_text":"replace color from light to dark","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O B O B","correct_preds":"1 1 1 0 0 0"}
+{"example_id":"iot_97","input_text":"turn wemo on","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O B O","correct_preds":"1 0 1"}
+{"example_id":"iot_98","input_text":"it's dark in here","generated_prompt":"iot ['light''sun''sun']","generated_text":"O O O B","labels_text":"O O O O","correct_preds":"1 1 1 0"}
+{"example_id":"iot_99","input_text":"would you set the coffee maker running","generated_prompt":"O O O O O","generated_text":"O O O O O","labels_text":"O O O O B I O","correct_preds":"1 1 1 1 0 0 0"}
+{"example_id":"iot_100","input_text":"it's too bright in here can you turn a light off","generated_prompt":"O O O O","generated_text":"O O O O","labels_text":"O O O O O O O O O O O","correct_preds":"1 1 1 1 0 0 0 0 0 0 0"}
+{"example_id":"iot_101","input_text":"kindly switch off the light in the drawing hall","generated_prompt":"O O O O O O","generated_text":"O O O O","labels_text":"O O O O O O O B I","correct_preds":"1 1 1 1 0 0 0 0 0"}
+{"example_id":"iot_102","input_text":"please turn the lights off in the bathroom","generated_prompt":"O O O O","generated_text":"O O O O","labels_text":"O O O O O O O B","correct_preds":"1 1 1 1 0 0 0 0"}
+{"example_id":"iot_103","input_text":"get the roomba to clean the kitchen","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O B O O O B","correct_preds":"1 1 0 1 0 0 0"}
+{"example_id":"iot_104","input_text":"olly brighten the lights","generated_prompt":"O O O","generated_text":"O O O","labels_text":"O O O O","correct_preds":"1 1 1 0"}
+{"example_id":"iot_105","input_text":"change the color of lights","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O O","correct_preds":"1 1 1 0 0"}
+{"example_id":"iot_106","input_text":"olly activate a different light color","generated_prompt":"O O O","generated_text":"O O O O O O O","labels_text":"O O O O O O","correct_preds":"1 1 1 1 1 1"}
+{"example_id":"iot_107","input_text":"activate a different light color","generated_prompt":"Activate a different light color.","generated_text":"Activate a different light color.: activate a different light color.","labels_text":"O O O O O","correct_preds":"0 0 0 0 0"}
+{"example_id":"iot_108","input_text":"turn the room light off","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O B O O","correct_preds":"1 1 0 0 0"}
+{"example_id":"iot_109","input_text":"turn wemo plug socket on","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O B I I O","correct_preds":"1 0 0 0 0"}
+{"example_id":"iot_110","input_text":"toggle wemo plug socket on","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O B I I O","correct_preds":"1 0 0 0 0"}
+{"example_id":"iot_111","input_text":"start house cleaning","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O B I","correct_preds":"1 0 0"}
+{"example_id":"iot_112","input_text":"every light of room increase its intensity","generated_prompt":"iot ['light' 'room' 'light']","generated_text":"O O O B","labels_text":"B I O B O O O","correct_preds":"0 0 1 1 0 0 0"}
+{"example_id":"iot_113","input_text":"activate robot vacuum","generated_prompt":"Activate robot vacuum","generated_text":"Activate robot vacuum: activate robot vacuum: activate robot vacuum.","labels_text":"O B I","correct_preds":"0 0 0"}
+{"example_id":"iot_114","input_text":"i would like some coffee now","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O O O O","correct_preds":"1 1 1 1 0 0"}
+{"example_id":"iot_115","input_text":"prepare my morning coffee","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O B O","correct_preds":"1 1 0 1"}
+{"example_id":"iot_116","input_text":"it's coffee time","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O","correct_preds":"1 1 1"}
+{"example_id":"iot_117","input_text":"alexa increase the brightness of the light it is hard to see down here","generated_prompt":"alexa increase the brightness of the light it is hard to see down here:","generated_text":"O O O O O","labels_text":"O O O O O O O O O O O O O O","correct_preds":"1 1 1 1 1 0 0 0 0 0 0 0 0 0"}
+{"example_id":"iot_118","input_text":"turn on the vacuum","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O B","correct_preds":"1 1 1 0"}
+{"example_id":"audio_1","input_text":"set the volume to low","generated_prompt":"iot ['volume''speakers''speaker']","generated_text":"O O O B","labels_text":"O O O B I","correct_preds":"1 1 1 1 0"}
+{"example_id":"audio_2","input_text":"volume up","generated_prompt":"Volume up","generated_text":"Volume down: volume up: volume down: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up: volume up","labels_text":"O O","correct_preds":"0 0"}
+{"example_id":"audio_3","input_text":"softer","generated_prompt":"O O O","generated_text":"O O O","labels_text":"O","correct_preds":"1"}
+{"example_id":"audio_4","input_text":"mute for the next hour please","generated_prompt":"O O O O O O","generated_text":"O O O O","labels_text":"O O O B I O","correct_preds":"1 1 1 0 0 0"}
+{"example_id":"audio_5","input_text":"lower the volume","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O","correct_preds":"1 1 1"}
+{"example_id":"audio_6","input_text":"i can't hear just increase the volume","generated_prompt":"iot ['volume''speakers''speakers''speaker']","generated_text":"O O O O","labels_text":"O O O O O O O","correct_preds":"1 1 1 1 0 0 0"}
+{"example_id":"audio_7","input_text":"could you please lower the tone","generated_prompt":"iot ['tone''speakers''speaker']","generated_text":"O O O O O","labels_text":"O O O O O O","correct_preds":"1 1 1 1 1 0"}
+{"example_id":"audio_8","input_text":"hey olly mute the speakers","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O O","correct_preds":"1 1 1 0 0"}
+{"example_id":"audio_9","input_text":"lower all volume on speakers please","generated_prompt":"O O O O","generated_text":"O O O O","labels_text":"O O O O O O","correct_preds":"1 1 1 1 0 0"}
+{"example_id":"audio_10","input_text":"just increase the volume a little","generated_prompt":"iot ['volume' 'volume' 'volume']","generated_text":"O O O B","labels_text":"O O O O O O","correct_preds":"1 1 1 0 0 0"}
+{"example_id":"audio_11","input_text":"increase the volume of the music to ninety","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O O O O B I","correct_preds":"1 1 1 1 0 0 0 0"}
+{"example_id":"audio_12","input_text":"please shut off","generated_prompt":"O O O O O O","generated_text":"O O O O","labels_text":"O O O","correct_preds":"1 1 1"}
+{"example_id":"audio_13","input_text":"touch the mute button","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O","correct_preds":"1 1 1 0"}
+{"example_id":"audio_14","input_text":"mute the speaker please","generated_prompt":"mute the speaker please.","generated_text":"mute the speaker please: mute the speaker please.","labels_text":"O O O O","correct_preds":"0 0 0 0"}
+{"example_id":"audio_15","input_text":"turn the volume up","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O","correct_preds":"1 1 1 0"}
+{"example_id":"audio_16","input_text":"mute all responses now","generated_prompt":"O O O O O","generated_text":"O O O","labels_text":"O O O O","correct_preds":"1 1 1 0"}
+{"example_id":"audio_17","input_text":"no speaking please","generated_prompt":"No speaking please.","generated_text":"No speaking please.: no speaking please.","labels_text":"O O O","correct_preds":"0 0 0"}
+{"example_id":"audio_18","input_text":"mute sound from speakers","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O","correct_preds":"1 1 1 0"}
+{"example_id":"audio_19","input_text":"lower your volume please","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O O","correct_preds":"1 1 1 1"}
+{"example_id":"audio_20","input_text":"go to sleep","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O","correct_preds":"1 1 1"}
+{"example_id":"audio_21","input_text":"increase volume please","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O","correct_preds":"1 1 1"}
+{"example_id":"audio_22","input_text":"slow the volume speaker","generated_prompt":"Slow the volume speaker","generated_text":"O O O O O","labels_text":"O O O O","correct_preds":"1 1 1 1"}
+{"example_id":"audio_23","input_text":"please do not respond","generated_prompt":"iot ['speaker''speaker''speaker']","generated_text":"O O O O","labels_text":"O O O O","correct_preds":"1 1 1 1"}
+{"example_id":"audio_24","input_text":"please turn the volume to the loudest setting","generated_prompt":"iot ['volume''speaker''speaker']","generated_text":"O O O O B","labels_text":"O O O O O O B O","correct_preds":"1 1 1 1 0 0 0 0"}
+{"example_id":"audio_25","input_text":"mute the audio","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O","correct_preds":"1 1 1"}
+{"example_id":"audio_26","input_text":"stop the audio","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O","correct_preds":"1 1 1"}
+{"example_id":"audio_27","input_text":"mute the settings","generated_prompt":"mute the settings:","generated_text":"Mute the settings:: mute the settings::","labels_text":"O O O","correct_preds":"0 0 0"}
+{"example_id":"audio_28","input_text":"please turn up the speaker volume","generated_prompt":"iot ['volume''speaker''speaker']","generated_text":"O O O O","labels_text":"O O O O O O","correct_preds":"1 1 1 1 0 0"}
+{"example_id":"audio_29","input_text":"please speak quieter to me","generated_prompt":"O O O O O","generated_text":"O O O O","labels_text":"O O O O O","correct_preds":"1 1 1 1 0"}
+{"example_id":"audio_30","input_text":"olly turn the volume up","generated_prompt":"O O O","generated_text":"O O O","labels_text":"O O O O O","correct_preds":"1 1 1 0 0"}
+{"example_id":"audio_31","input_text":"turn the sound up","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O","correct_preds":"1 1 1 0"}
+{"example_id":"audio_32","input_text":"set mute until said otherwise","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O O O O","correct_preds":"1 1 1 0 0"}
+{"example_id":"audio_33","input_text":"can you speak louder","generated_prompt":"iot ['speaker''speaker''speaker']","generated_text":"O O O O","labels_text":"O O O O","correct_preds":"1 1 1 1"}
+{"example_id":"audio_34","input_text":"audio on","generated_prompt":"O O O O","generated_text":"O O O","labels_text":"O O","correct_preds":"1 1"}
+{"example_id":"audio_35","input_text":"can you please be muted for a while","generated_prompt":"iot ['mute''speakers''speaker']","generated_text":"O O O O O","labels_text":"O O O O O O O O","correct_preds":"1 1 1 1 1 0 0 0"}
