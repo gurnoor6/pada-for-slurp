@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ### Environment Variables
-GPU_ID=0
+GPU_ID=0,1
 export TOKENIZERS_PARALLELISM=false
 export PYTHONPATH=`pwd`
 
@@ -14,7 +14,7 @@ SEED=212
 
 # this is all domains, remove according to wish
 # DOMAINS=recommendation,iot,cooking,datetime,transport,lists,takeaway,play,calendar,weather,general,qa,alarm,audio,social,email,music,news
-SRC_DOMAINS=iot,cooking
+SRC_DOMAINS=iot,audio
 TRG_DOMAIN=recommendation
 
 # echo "Extracting DRFs for the current experiment."

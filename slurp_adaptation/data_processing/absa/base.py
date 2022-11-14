@@ -7,7 +7,7 @@ from torch.utils.data import Dataset, DataLoader
 from transformers import T5TokenizerFast
 from src.utils.constants import DATA_DIR
 import pickle
-
+import os
 
 class AbsaSeq2SeqDataProcessor:
 
@@ -135,7 +135,7 @@ class AbsaSeq2SeqDataset(Dataset):
 
 
 def test_AbsaSeq2SeqDataset():
-    data_processor = AbsaSeq2SeqDataProcessor(["device", "laptops", "rest"], "service", DATA_DIR)
+    data_processor = AbsaSeq2SeqDataProcessor(["device", "laptops", "rest"], "service", os.path.join(DATA_DIR, "absa_data"))
     print()
     print(data_processor.data["dev"].keys())
     print(len(list(data_processor.data["dev"].values())[0]))
@@ -157,3 +157,5 @@ def test_AbsaSeq2SeqDataset():
         break
 
 
+if __name__ == '__main__':
+    test_AbsaSeq2SeqDataset()

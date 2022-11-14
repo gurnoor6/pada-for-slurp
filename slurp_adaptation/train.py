@@ -102,7 +102,8 @@ def train_pada_experiment(args):
             logger=logger,
             fast_dev_run=model_hparams_dict.pop("fast_dev_run"),
             deterministic=True,
-            benchmark=False
+            benchmark=False,
+            num_sanity_val_steps=0
         )
 
     set_seed(model_hparams_dict.pop("seed"))
